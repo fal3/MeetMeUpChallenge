@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CommentViewController.h
 //  MeetMeUpChallenge
 //
 //  Created by alex fallah on 5/26/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CommentViewController : UIViewController
 
+@property NSString *eventID;
 
 @end
-

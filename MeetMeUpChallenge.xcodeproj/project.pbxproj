@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D065B2A51B1544EB0089B5FF /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D065B2A41B1544EB0089B5FF /* CommentViewController.m */; };
 		D0D79B741B151306002D6CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B731B151306002D6CB8 /* main.m */; };
 		D0D79B771B151306002D6CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B761B151306002D6CB8 /* AppDelegate.m */; };
-		D0D79B7A1B151306002D6CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B791B151306002D6CB8 /* ViewController.m */; };
+		D0D79B7A1B151306002D6CB8 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B791B151306002D6CB8 /* ListViewController.m */; };
 		D0D79B7D1B151306002D6CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D79B7B1B151306002D6CB8 /* Main.storyboard */; };
 		D0D79B7F1B151306002D6CB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D79B7E1B151306002D6CB8 /* Images.xcassets */; };
 		D0D79B821B151306002D6CB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D79B801B151306002D6CB8 /* LaunchScreen.xib */; };
 		D0D79B8E1B151306002D6CB8 /* MeetMeUpChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B8D1B151306002D6CB8 /* MeetMeUpChallengeTests.m */; };
+		D0D79B991B1513F2002D6CB8 /* EventListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B981B1513F2002D6CB8 /* EventListCell.m */; };
+		D0D79B9C1B15248E002D6CB8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B9B1B15248E002D6CB8 /* DetailViewController.m */; };
+		D0D79B9F1B152E99002D6CB8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D79B9E1B152E99002D6CB8 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D065B2A31B1544EB0089B5FF /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		D065B2A41B1544EB0089B5FF /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
 		D0D79B6E1B151306002D6CB8 /* MeetMeUpChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeUpChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D79B721B151306002D6CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0D79B731B151306002D6CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0D79B751B151306002D6CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0D79B761B151306002D6CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0D79B781B151306002D6CB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0D79B791B151306002D6CB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0D79B781B151306002D6CB8 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		D0D79B791B151306002D6CB8 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		D0D79B7C1B151306002D6CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0D79B7E1B151306002D6CB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0D79B811B151306002D6CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D0D79B871B151306002D6CB8 /* MeetMeUpChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUpChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D79B8C1B151306002D6CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0D79B8D1B151306002D6CB8 /* MeetMeUpChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUpChallengeTests.m; sourceTree = "<group>"; };
+		D0D79B971B1513F2002D6CB8 /* EventListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListCell.h; sourceTree = "<group>"; };
+		D0D79B981B1513F2002D6CB8 /* EventListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListCell.m; sourceTree = "<group>"; };
+		D0D79B9A1B15248E002D6CB8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D0D79B9B1B15248E002D6CB8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D0D79B9D1B152E99002D6CB8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D0D79B9E1B152E99002D6CB8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +95,17 @@
 			children = (
 				D0D79B751B151306002D6CB8 /* AppDelegate.h */,
 				D0D79B761B151306002D6CB8 /* AppDelegate.m */,
-				D0D79B781B151306002D6CB8 /* ViewController.h */,
-				D0D79B791B151306002D6CB8 /* ViewController.m */,
+				D0D79B781B151306002D6CB8 /* ListViewController.h */,
+				D0D79B791B151306002D6CB8 /* ListViewController.m */,
+				D065B2A31B1544EB0089B5FF /* CommentViewController.h */,
+				D065B2A41B1544EB0089B5FF /* CommentViewController.m */,
+				D0D79B971B1513F2002D6CB8 /* EventListCell.h */,
+				D0D79B981B1513F2002D6CB8 /* EventListCell.m */,
 				D0D79B7B1B151306002D6CB8 /* Main.storyboard */,
+				D0D79B9D1B152E99002D6CB8 /* WebViewController.h */,
+				D0D79B9E1B152E99002D6CB8 /* WebViewController.m */,
+				D0D79B9A1B15248E002D6CB8 /* DetailViewController.h */,
+				D0D79B9B1B15248E002D6CB8 /* DetailViewController.m */,
 				D0D79B7E1B151306002D6CB8 /* Images.xcassets */,
 				D0D79B801B151306002D6CB8 /* LaunchScreen.xib */,
 				D0D79B711B151306002D6CB8 /* Supporting Files */,
@@ -219,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D79B7A1B151306002D6CB8 /* ViewController.m in Sources */,
+				D0D79B9C1B15248E002D6CB8 /* DetailViewController.m in Sources */,
+				D0D79B9F1B152E99002D6CB8 /* WebViewController.m in Sources */,
+				D065B2A51B1544EB0089B5FF /* CommentViewController.m in Sources */,
+				D0D79B991B1513F2002D6CB8 /* EventListCell.m in Sources */,
+				D0D79B7A1B151306002D6CB8 /* ListViewController.m in Sources */,
 				D0D79B771B151306002D6CB8 /* AppDelegate.m in Sources */,
 				D0D79B741B151306002D6CB8 /* main.m in Sources */,
 			);
@@ -418,6 +442,7 @@
 				D0D79B931B151306002D6CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0D79B941B151306002D6CB8 /* Build configuration list for PBXNativeTarget "MeetMeUpChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				D0D79B961B151306002D6CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
